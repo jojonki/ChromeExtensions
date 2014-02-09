@@ -1,0 +1,13 @@
+{
+	"name": "GoodByeFaceBookAd",
+	"version": "0.1",
+	"manifest_version": 2,
+ 	"description": "Disable Facebook ad",
+  "content_scripts": [
+      {
+          "matches": ["https://www.facebook.com/*"],
+          "run_at": "document_end",
+          "js": ["js/main.js"]
+      }
+  ]
+}
