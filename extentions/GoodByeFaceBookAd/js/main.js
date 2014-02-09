@@ -1,7 +1,7 @@
 window.onload = DisableAdTag;
 
 function DisableAdTag() {
-	console.log('run DisableAdTag');
+    console.log('run DisableAdTag');
     var sideAd = document.getElementById('pagelet_side_ads');
     if(sideAd && sideAd.parentNode) sideAd.parentNode.removeChild(sideAd);
 
